@@ -91,15 +91,24 @@ The Raw unprocessed greyscale sequences can be found on the dataset page pn Figs
 
 
 ## Running the Benchmark
-To train the models provided, Clone this repo via :
+
+1. Activate the lava environment from the installation instructions
+   ```
+   source lava_env/bin/acivate
+   ```
+   
+2. Clone this repo via :
 
 ```
-git clone 
+[git clone ](https://github.com/Ikhadija-5/SNN_Classification.git)
 ```
-Simply navigate to the model you want to run with 
+
+3. Simply navigate to the model you want to run with 
 
 ``` cd DenseSNN``` 
- and then run train.py. For example for DenseSNN, run the command
+
+
+4. Run train.py. For example for DenseSNN, run the command
 
 ```
 python train.py --network dense --trained_folder Dense_200 --batch_size 8 --max_timeStamps 200 --sample_length 200
