@@ -91,7 +91,12 @@ The Raw unprocessed greyscale sequences can be found on the dataset page pn Figs
 
 
 ## Running the Benchmark
-To train the models provided, Simply navigate to the model you want to run with 
+To train the models provided, Clone this repo via :
+
+```
+git clone 
+```
+Simply navigate to the model you want to run with 
 
 ``` cd DenseSNN``` 
  and then run train.py. For example for DenseSNN, run the command
@@ -107,30 +112,30 @@ to use SpikingConvnet
 
 Notes:
 
---network can be dense or conv for DenseSNN or SpikingConvNet, respectively.
+- network can be dense or conv for DenseSNN or SpikingConvNet, respectively.
 
---trained_folder is the folder where trained weights will be saved.
+- trained_folder is the folder where trained weights will be saved.
 
---batch_size sets the training batch size.
+- batch_size sets the training batch size.
 
---max_timeStamps and --sample_length control the temporal resolution. You can use the same values for both models to experiment consistently across temporal resolutions.
+- max_timeStamps and --sample_length control the temporal resolution. You can use the same values for both models to experiment consistently across temporal resolutions.
 
 
 Contributing
 
 Contributions are welcome! Please follow these steps:
 
--Fork the repository
+- Fork the repository
 
--Create a new branch: git checkout -b feature-name
+- Create a new branch: git checkout -b feature-name
 
--Make your changes
+- Make your changes
 
--Commit your changes: git commit -m "Add feature"
+- Commit your changes: git commit -m "Add feature"
 
--Push to the branch: git push origin feature-name
+- Push to the branch: git push origin feature-name
 
--Open a pull request
+- Open a pull request
 
 
 
