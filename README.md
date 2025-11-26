@@ -1,11 +1,13 @@
-# SNN_Classification
+This repository contains code for 
+## **Eye Movement Classification** using **Spiking Neural Networks (SNNs)** and neuromorphic vision sensors. 
 
+All models are implemented using the **LAVA framework**.  
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![GitHub stars](https://img.shields.io/github/stars/Ikhadija-5/SNN_Classification?style=social)
 
-This repository contains code for **Eye Movement Classification** using **Spiking Neural Networks (SNNs)** and neuromorphic vision sensors. All models are implemented using the **LAVA framework**.  
+
 
 ---
 
@@ -90,7 +92,7 @@ dataset = EyeDataset(dataset_path)
 The Raw unprocessed greyscale sequences can be found on the dataset page pn Figshare. To access more information about the data curation process and data characteristics, kindly refer to Section 3 of the corresponding paper.
 
 
-## Running the Benchmark
+## Usage 
 
 1. Activate the lava environment from the installation instructions
    ```
@@ -130,7 +132,7 @@ Notes:
 - max_timeStamps and --sample_length control the temporal resolution. You can use the same values for both models to experiment consistently across temporal resolutions.
 
 
-Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -146,7 +148,7 @@ Contributions are welcome! Please follow these steps:
 
 - Open a pull request
 
-
+## License 
 
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />
