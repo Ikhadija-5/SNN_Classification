@@ -7,6 +7,7 @@ All models are implemented using the **LAVA framework**.
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![GitHub stars](https://img.shields.io/github/stars/Ikhadija-5/SNN_Classification?style=social)
 
+![Alt text](overview.png)
 
 
 ---
