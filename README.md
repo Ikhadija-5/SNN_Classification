@@ -1,5 +1,6 @@
-This repository contains code for 
-## **Eye Movement Classification** using **Spiking Neural Networks (SNNs)** and neuromorphic vision sensors. 
+This repository contains code for the paper  
+## **[Eye Movement Classification Using Neuromorphic Vision Sensors](https://www.mdpi.com/1995-8692/19/1/17)**
+
 
 All models are implemented using the **LAVA framework**.  
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
@@ -131,6 +132,25 @@ Notes:
 - batch_size sets the training batch size.
 
 - max_timeStamps and --sample_length control the temporal resolution. You can use the same values for both models to experiment consistently across temporal resolutions.
+
+
+## Citation
+
+If you use this code, data, or ideas from this repository in your work, we kindly ask that you cite our paper.
+
+
+```
+@article{iddrisu2026eye,
+  title   = {Eye Movement Classification Using Neuromorphic Vision Sensors},
+  author  = {Iddrisu, K. and Shariff, W. and Stec, M. and O'Connor, N. and Little, S.},
+  journal = {Journal of Eye Movement Research},
+  year    = {2026},
+  volume  = {19},
+  pages   = {17},
+  doi     = {10.3390/jemr19010017}
+}
+```
+
 
 
 ## Contributing
