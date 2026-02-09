@@ -58,25 +58,6 @@ venv\Scripts\activate     # Windows
 
 
 
-# Eye Movement Classification Using Neuromorphic Vision
-Sensors
-
-If you are using this dataset in your paper, please **cite the following paper** : 
-
-```
-@article{iddrisu2024event,
-  title={Event camera-based eye motion analysis: A survey},
-  author={Iddrisu, Khadija and Shariff, Waseem and Corcoran, Peter and O'Connor, Noel E and Lemley, Joe and Little, Suzanne},
-  journal={IEEE Access},
-  volume={12},
-  pages={136783--136804},
-  year={2024},
-  publisher={IEEE}
-} 
-```
-
-
-
 
 ## Dataset 
 
